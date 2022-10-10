@@ -1,0 +1,43 @@
+  /* 页脚透明 */
+#footer{
+    background: transparent!important;
+  }
+  /* 页脚黑色透明玻璃效果移除 */
+  #footer::before{
+      background: transparent!important;
+    }
+
+#page-header{
+  background: transparent!important;
+}
+#page-header::before{
+  background: transparent!important;
+}
+/* 首页文章卡片 */
+#recent-posts > .recent-post-item{
+  opacity: 0.85;
+}
+/* 首页侧栏卡片 */
+.card-widget{
+  opacity: 0.85!important;
+}
+/* 文章页面正文背景 */
+div#post{
+  opacity: 0.85;
+}
+/* 分页页面 */
+div#page{
+  opacity: 0.85;
+}
+/* 归档页面 */
+div#archive{
+  opacity: 0.85;
+}
+/* 标签页面 */
+div#tag{
+  opacity: 0.85;
+}
+/* 分类页面 */
+div#category{
+  opacity: 0.85;
+}
